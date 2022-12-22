@@ -1,0 +1,75 @@
+.content {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block {
+    width: 260.89px;
+    height: 400px;
+    border-radius: 10px;
+    background-image: url("/Valorant.JPG");
+    filter: drop-shadow(5px 5px 3px);
+}
+
+.Picture {
+    width: auto;
+    height: 400px;
+}
+
+.Breach {
+    color: orange;
+}
+
+.Sage {
+    color: cyan;
+}
+
+.Viper {
+    color: limegreen;
+}
+
+.Omen {
+    color: indigo;
+}
+
+.test {
+    position: absolute;
+    top: 0px;
+    height: 400px;
+    overflow: hidden;
+}
+
+p {
+    position: relative;
+    width: 260px;
+    bottom: -500px;
+    text-align: center;
+    font-size: 36px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+.block:hover .Picture {
+    filter: brightness(60%);
+    transition-duration: 1.25s;
+}
+
+.block:hover p {
+    transition-duration: 1.25s;
+    bottom: 0px;
+}
+.introduce{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+@media only screen and (max-width: 1000px) {
+    .block {
+        width: 15%;
+    }
+    .Picture{
+        width:100%;
+    }
+  }
